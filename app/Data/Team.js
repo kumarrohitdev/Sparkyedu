@@ -18,7 +18,7 @@ export const Team=[
     {   Image:"Ashish.png",
         Name:"Ashish sah",
         Details:"Data Analytcs",
-        Social:"https://www.linkedin.com/in/utkarsh-kumar-b4ba62211/"
+        Social:"https://www.linkedin.com/in/ashish-sah-170916242"
 
     }
 ]
