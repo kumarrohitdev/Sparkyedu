@@ -40,7 +40,7 @@ export default function Page() {
       {/* Description */}
       <div className="mt-12 lg:mt-20">
         <h1 className="text-2xl lg:text-3xl font-semibold text-center">DESCRIPTION</h1>
-        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8 text-center lg:text-left">
+        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8 text-justify lg:text-left">
           We offer a comprehensive <span className="text-amber-500">web service</span> solution designed to facilitate seamless interaction and data exchange between various applications and systems. Our <span className="text-amber-500">web service</span> enables streamlined communication over the internet, providing a standardized platform for clients to access a wide range of functionalities. Whether you require data retrieval, manipulation, or complex business logic processing, our <span className="text-amber-500">web service</span> ensures reliable and efficient operation. With a focus on interoperability and scalability, we empower businesses to optimize their operations and enhance connectivity across diverse platforms and technologies.
         </p>
       </div>

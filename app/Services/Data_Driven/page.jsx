@@ -39,7 +39,7 @@ export default function Page() {
       {/* Description */}
       <div className="mt-12 lg:mt-20">
         <h1 className="text-2xl lg:text-3xl font-semibold text-center">DESCRIPTION</h1>
-        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8 text-center lg:text-left">
+        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8  text-justify lg:text-left">
           We specialize in providing data-driven solutions to help businesses harness the power of their data. Our services cover a wide range of areas including data analysis, visualization, predictive analytics, machine learning, and more. Whether you need to uncover insights from your data, build predictive models, or implement data governance and security measures, we have the expertise to assist you in leveraging your data assets for informed decision-making and strategic growth.
         </p>
       </div>
