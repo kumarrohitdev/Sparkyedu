@@ -27,7 +27,7 @@ export default function Page() {
         <div className="flex justify-center items-center">
           <Image
             className="rounded-md"
-            src="/DataDriven.png"
+            src="/Datadriven.png"
             alt="Data Driven"
             priority
             width={450}
