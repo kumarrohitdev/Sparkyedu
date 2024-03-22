@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function WorkCard() {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 mx-auto  gap-4 m-12">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto  gap-4 m-12">
       {webWork.map((item, index) => (
         <div key={index}>
           <div className="max-w-xs mx-auto mb-8">

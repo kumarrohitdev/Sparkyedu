@@ -40,7 +40,7 @@ const DrawerComponent = () => {
                 priority
               />
               <ul>
-                <li>Rua Technology</li>
+                <li>Sparky Technology</li>
                 <Link
                   target="_blank"
                   href={"mailto:Rohitkumar.Work@outlook.com"}
