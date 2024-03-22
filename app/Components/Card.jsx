@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Card() {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 mx-auto  gap-4 m-12">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto  gap-4 m-12">
       {Services.map((item, index) => (
         <Link key={index} href={`/Services/${item.Link}`}>
         <div  className="max-w-xs mx-auto mb-8">

@@ -34,7 +34,7 @@ export default function Page() {
       {/* Description */}
       <div className="mt-12 lg:mt-20">
         <h1 className="text-2xl lg:text-3xl font-semibold text-center">DESCRIPTION</h1>
-        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8 text-center lg:text-left">
+        <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8 text-justify lg:text-left">
           We specialize in graphic design services tailored to meet your branding and marketing needs. From crafting captivating logos and defining brand identities to creating visually stunning print materials and dynamic motion graphics, our team of designers is dedicated to bringing your ideas to life. Whether you are launching a new product, rebranding your business, or looking to enhance your online presence, we offer comprehensive graphic design solutions to help you achieve your goals.
         </p>
       </div>
