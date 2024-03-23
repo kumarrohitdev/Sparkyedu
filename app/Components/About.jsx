@@ -11,7 +11,7 @@ export default function About() {
         graphic design. With our skilled team and dedication to innovation, we
         exceed expectations and deliver tailored results worldwide. Customer
         satisfaction drives us, and we are committed to building lasting
-        relationships based on trust and excellence. Choose Rua Technologies for
+        relationships based on trust and excellence. Choose Sparky Technologies for
         unparalleled quality.
       </p>
     </div>
