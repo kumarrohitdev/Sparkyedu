@@ -55,7 +55,7 @@ const DrawerComponent = () => {
             {pages.map((page, index) => (
               <ListItemButton onClick={() => setValue(false)} key={index}>
                 <span className="text-xl  font-semibold dark:text-white ml-4   rounded-md pl-12 pr-12 hover:transform hover:scale-110 hover:transition-transform">
-                  <Link className="flex gap-2 items-center " href={`#${page}`}>
+                  <Link className="flex gap-2 items-center " href={`/#${page}`}>
                     {React.createElement(icons[page], { size: "1em" })}
                     {page}
                   </Link>

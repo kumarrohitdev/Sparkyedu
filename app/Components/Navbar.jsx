@@ -6,7 +6,7 @@ import Image from "next/image";
 import DarkModeSwitch from "./DarkModeSwitch";
 
 // all page inside our website
-const pages = ["Home", "Services", "Team","Contact","About"];
+const pages = ["Home", "Services", "Team", "Contact", "About"];
 
 const Navbar = () => {
   return (

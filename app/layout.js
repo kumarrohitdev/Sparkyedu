@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Provider from "./Provider";
 import Footer from "./Components/Footer";
+import Whatsappbtn from "./Components/Whatsappbtn";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Provider>
         <Navbar/>
+        <Whatsappbtn />
         {children}
         <Footer />
         </Provider>

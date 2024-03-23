@@ -1,4 +1,7 @@
+import ContactUs from "@/app/Components/ConatactEmail";
+import WorkCard from "@/app/Components/WorkCard";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Page() {
@@ -8,8 +11,12 @@ export default function Page() {
       <div className="grid lg:grid-cols-2 gap-8">
         {/* First column */}
         <div className="bg-gradient-to-br from-purple-400 to-indigo-500 rounded-lg shadow-lg p-8 text-white">
-          <h1 className="text-4xl lg:text-5xl font-bold text-center mb-6 lg:mb-8">Data Driven</h1>
-          <h2 className="text-center font-semibold text-2xl mb-4 lg:mb-6">What we provide</h2>
+          <h1 className="text-4xl lg:text-5xl font-bold text-center mb-6 lg:mb-8">
+            Data Driven
+          </h1>
+          <h2 className="text-center font-semibold text-2xl mb-4 lg:mb-6">
+            What we provide
+          </h2>
           <ul className="text-center lg:text-left">
             <li className="mb-2">Data Analysis</li>
             <li className="mb-2">Data Visualization</li>
@@ -34,13 +41,28 @@ export default function Page() {
             height={300}
           />
         </div>
+        <div className="flex- justify-center ">
+          <button className="bg-blue-500 rounded-md p-4">
+            <a href="/Datadriven.pdf" download="OurWork.pdf">
+              Download Our Work
+            </a>
+          </button>
+        </div>
       </div>
 
       {/* Description */}
       <div className="mt-12 lg:mt-20">
-        <h1 className="text-2xl lg:text-3xl font-semibold text-center">DESCRIPTION</h1>
+        <h1 className="text-2xl lg:text-3xl font-semibold text-center">
+          DESCRIPTION
+        </h1>
         <p className="mt-4 lg:mt-6 px-4 sm:px-6 lg:px-8  text-justify lg:text-left">
-          We specialize in providing data-driven solutions to help businesses harness the power of their data. Our services cover a wide range of areas including data analysis, visualization, predictive analytics, machine learning, and more. Whether you need to uncover insights from your data, build predictive models, or implement data governance and security measures, we have the expertise to assist you in leveraging your data assets for informed decision-making and strategic growth.
+          We specialize in providing data-driven solutions to help businesses
+          harness the power of their data. Our services cover a wide range of
+          areas including data analysis, visualization, predictive analytics,
+          machine learning, and more. Whether you need to uncover insights from
+          your data, build predictive models, or implement data governance and
+          security measures, we have the expertise to assist you in leveraging
+          your data assets for informed decision-making and strategic growth.
         </p>
       </div>
 
@@ -50,6 +72,8 @@ export default function Page() {
           OUR <span className="font-bold text-blue-600">Works</span>
         </h1>
       </div>
+      <WorkCard />
+      <ContactUs />
     </div>
   );
 }

@@ -30,7 +30,7 @@ export default function DarkSwitch() {
   return (
     <div className="pt-1">
       <button  className="outline-none" onClick={toggleTheme}>
-        {currentTheme === 'dark' ? <MdLightMode /> : <MdDarkMode />}
+        {currentTheme === 'dark' ? <MdLightMode size={26} /> : <MdDarkMode size={26} />}
       </button>
       <button className="outline-none" onClick={handleSystemTheme}></button>
     </div>

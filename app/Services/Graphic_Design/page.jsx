@@ -1,3 +1,5 @@
+import ContactUs from "@/app/Components/ConatactEmail";
+import WorkCard from "@/app/Components/WorkCard";
 import React from "react";
 
 export default function Page() {
@@ -45,6 +47,8 @@ export default function Page() {
           OUR <span className="font-bold text-blue-600">Works</span>
         </h1>
       </div>
+      <WorkCard />
+      <ContactUs />
     </div>
   );
 }
