@@ -8,21 +8,21 @@ export default function Footer() {
     return (
         <footer className="flex flex-col justify-center items-center bg-gray-900 text-white py-10">
             <div className="flex flex-wrap justify-center items-center mb-6">
-                <Link href="/#About" className="mx-3 my-2 hover:text-blue-400 transition duration-300">About Us</Link>
-                <Link href="/#Contact" className="mx-3 my-2 hover:text-blue-400 transition duration-300">Contact Us</Link>
-                <Link href="/faq" className="mx-3 my-2 hover:text-blue-400 transition duration-300">FAQ</Link>
-                <Link href="/terms" className="mx-3 my-2 hover:text-blue-400 transition duration-300">Terms of Service</Link>
-                <Link href="/refund-policy" className="mx-3 my-2 hover:text-blue-400 transition duration-300">Refund Policy</Link>
+                <Link href="/#About" className="mx-3 my-2 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">About Us</Link>
+                <Link href="/#Contact" className="mx-3 my-2 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">Contact Us</Link>
+                <Link href="/faq" className="mx-3 my-2 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">FAQ</Link>
+                <Link href="/terms" className="mx-3 my-2 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">Terms of Service</Link>
+                <Link href="/refund-policy" className="mx-3 my-2 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">Refund Policy</Link>
                 {/* Add links to other pages such as Privacy Policy, etc. */}
             </div>
             <div className="flex justify-center items-center mb-6">
                 <div className="mr-4">
                     <FaPhoneAlt className="inline-block mr-2 text-blue-400" />
-                    <Link href="tel:1234567890" className="text-gray-400 hover:text-blue-400 transition duration-300">931-529-7507</Link>
+                    <Link href="tel:1234567890" className="text-gray-400 hover:text-blue-400 transition duration-300 lg:text-xl md:text-sm text-xs">931-529-7507</Link>
                 </div>
                 <div>
                     <FaMapMarkerAlt className="inline-block mr-2 text-blue-400" />
-                    <span className="text-gray-400">Goswami Marg khichripur East Delhi-110091</span>
+                    <span className="text-gray-400 lg:text-xl md:text-sm text-xs">Goswami Marg khichripur East Delhi-110091</span>
                 </div>
             </div>
             <p className="text-sm text-gray-400">
